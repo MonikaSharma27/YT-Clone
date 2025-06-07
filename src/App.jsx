@@ -16,22 +16,13 @@ function App() {
 
   return (
     
-    // <div >
-    //   {loading && <Loading/>}
-    //   <Navbar/>
-    //   <Routes>
-    //     <Route path="/" exact element={<Home/>}/>
-    //     <Route path="/search/:searchQuery" element={<Search/>}/>
-    //     <Route path="/video/:id" element={<PlayingVideo/>}/>
-    //   </Routes>
-    // </div>
-     <div>
-      {loading && <Loading />}
-      <Navbar />
+    <div >
+      {loading && <Loading/>}
+      <Navbar/>
       <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/search/:searchQuery" element={<Search />} />
-        <Route path="/video/:id" element={<PlayingVideo />} />
+        <Route path="/" exact element={<Home/>}/>
+        <Route path="/search/:searchQuery" element={<Search/>}/>
+        <Route path="/video/:id" element={<PlayingVideo/>}/>
       </Routes>
     </div>
       
